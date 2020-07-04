@@ -1,0 +1,22 @@
+---
+title: "Acerca de mi pagina web"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+
+Este sitio a sido creado para ayudar a estudiantes de Ciencias e Ingenieria.
+
+## Más sobre este sitio web.
+
+  Mi nombre es Virgilio Quispe Delgado. Puedes saber más sobre mí en la página de inicio [Bienvenida](/) y en mi curriculum vitae [vitae](../vitae/) . Esta pagina contiene Fórmulas de derivadas e integrales que son usados en las asignaturas de Calculo difrencial e integral.
+
+
+## Contactos
+
+Twitter
+
+- [@virgili72608527](https://twitter.com/virgili72608527/): galletas
+

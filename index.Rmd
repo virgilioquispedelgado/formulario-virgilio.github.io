@@ -1,0 +1,32 @@
+---
+title: "Mi pagina web"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+
+# Hola a todos, bienvenidos a mi página.
+
+MI nombre es Virgilio Quispe Delgado, docente de Matematica, El proposito de mi pagina Web es es servir de utilidad a los estudiantes de Ciencias, Ingenieria y a todo aquel que quiera conocer acerca de este espacio.
+
+... y a los que visitan por primera vez, nuestra más calurosa bienvenida.
+
+
+```{r echo=FALSE, out.width="80%", fig.align='center'}
+rm(list=ls())
+
+t <- seq(-20,20,by=.01)
+x <- t
+y<-  x^2*abs(x)*cos(x)
+
+plot(x, y, xlab="", ylab="",type="l", pch=23, col="blue", bg="green", bty="l", tcl=-0.15, main="", las=1,cex=0.3, cex.axis=0.8,cex.lab=0.9,mgp=c(1.4,0.2,0.0),xlim = c(-17.2,17.2),ylim = c(-3500.2,3500.2))  #yaxt="n", xaxt="n", estos 
+
+# CONSTRUCCION DEL SISTEMA DE COORDENADSAS RECTAGULARES
+# Cuadriculamos el sistema de coordenadas
+grid(lty=2,col="green")
+abline(h=0,v=0,lty=2)
+```
+
+
